@@ -12,10 +12,10 @@ export function linkedListTraversal(node: ListNode | null) {
     return node
 }
 
-export function linkedListReqursiveTraversal(node: ListNode | null) { 
+export function linkedListRecursiveTraversal(node: ListNode | null) { 
     if( node === null) return node
 
     console.log(node?.val)
 
-    return linkedListReqursiveTraversal(node?.next || null)
+    return linkedListRecursiveTraversal(node?.next || null)
 }
