@@ -17,3 +17,5 @@ export const linkedListMock: ListNode = {
         },
     },
 }
+
+export const emptyArray = []
