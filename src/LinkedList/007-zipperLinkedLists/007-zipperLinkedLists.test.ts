@@ -2,7 +2,7 @@
 // yarn jest src/LinkedList/007-zipperLinkedLists --watch
 
 import { zipperLinkedLists } from './007-zipperLinkedLists';
-import { linkedListMock, linkedListRevesedMock, zipperResultsFirst, shortList, zipperResultsSecons } from './mock';
+import { linkedListMock, linkedListRevesedMock, zipperResultsFirst, shortList, zipperResultsSecons } from '../mock';
 
 
 test('Linked List Zipper', () => {

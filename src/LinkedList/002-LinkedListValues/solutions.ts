@@ -1,4 +1,4 @@
-import { ListNode } from "./mock";
+import { ListNode } from "../mock";
 
 export function linkedListValues(node: ListNode | null): number[] {
 

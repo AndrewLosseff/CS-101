@@ -1,8 +1,8 @@
 // To run test use this:
 // yarn jest src/LinkedList/002-LinkedListValues --watch
 
-import { linkedListMock, emptyArray } from './mock'
-import { linkedListRecursiveValues, linkedListValues } from './002-LinkedListValues'
+import { linkedListMock, emptyArray } from '../mock'
+import { linkedListRecursiveValues, linkedListValues } from '.'
 
 test('Linked List Values', () => {
     expect(linkedListValues).toBeDefined();

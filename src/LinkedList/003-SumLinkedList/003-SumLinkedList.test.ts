@@ -1,7 +1,7 @@
 // To run test use this:
 // yarn jest src/LinkedList/003-SumLinkedList --watch
 
-import { linkedListMock } from './mock'
+import { linkedListMock } from '../mock'
 import { sumLinkedList, sumLinkedListRecursive } from './003-SumLinkedList'
 
 test('Linked List Sum', () => {

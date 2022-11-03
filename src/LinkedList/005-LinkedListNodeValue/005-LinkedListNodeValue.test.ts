@@ -1,7 +1,7 @@
 // To run test use this:
 // yarn jest src/LinkedList/005-LinkedListNodeValue --watch
 
-import { linkedListMock } from './mock'
+import { linkedListMock } from '../mock'
 import { linkedListNodeValue, linkedListRecursiveNodeValue } from './005-LinkedListNodeValue'
 
 test('Linked List Node Value', () => {
