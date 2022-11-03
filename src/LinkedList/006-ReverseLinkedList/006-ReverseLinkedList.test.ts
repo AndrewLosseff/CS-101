@@ -1,7 +1,7 @@
 // To run test use this:
 // yarn jest src/LinkedList/006-ReverseLinkedList --watch
 
-import { linkedListMock, linkedListRevesedMock } from './mock'
+import { linkedListMock, linkedListRevesedMock } from '../mock'
 import { reverseLinkedList, reverseRecursiveLinkedList } from './006-ReverseLinkedList'
 
 test('Linked List Node Value', () => {

@@ -1,7 +1,7 @@
 // To run test use this:
 // yarn jest src/LinkedList/004-LinkedListFind --watch
 
-import { linkedListMock } from './mock'
+import { linkedListMock } from '../mock'
 import { linkedListFind, linkedListRecursiveFind } from './004-LinkedListFind'
 
 test('Linked List Find', () => {
